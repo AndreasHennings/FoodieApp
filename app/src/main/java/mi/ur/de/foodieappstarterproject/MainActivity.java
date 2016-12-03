@@ -18,6 +18,8 @@ public class MainActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Find welcome screen image and make it clickable
+
         ImageView welcome = (ImageView) findViewById(R.id.welcome);
         welcome.setOnClickListener(new View.OnClickListener()
         {

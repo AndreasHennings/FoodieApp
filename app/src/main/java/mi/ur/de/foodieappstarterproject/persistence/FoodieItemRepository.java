@@ -14,6 +14,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * Created by Andreas Hennings
+ * This class creates and interacts with a SQL-Database
  */
 
 
@@ -24,6 +25,7 @@ public class FoodieItemRepository
 
     private static final String DATABASE_TABLE = "foodieitems";
 
+    //There are four pieces of information we want to store
     public static final String KEY_ID = "_id";
     public static final String KEY_NAME = "name";
     public static final String KEY_IMAGE = "image";

@@ -10,8 +10,6 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/*Created by markusheckner on 23/04/15.
-        */
 
 public class FoodieImageFileHelper
 {
@@ -38,9 +36,7 @@ public class FoodieImageFileHelper
 
         // Create a media file name
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-
         File mediaFile = new File(mediaStorageDir.getAbsolutePath() + File.separator + "IMG_" + timeStamp + ".jpg");
-
         return Uri.fromFile(mediaFile);
     }
 
