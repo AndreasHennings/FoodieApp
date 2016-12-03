@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mi.ur.de.foodieappstarterproject.activities.FoodieGalleryActivity">
+
+
+
+    <item android:id="@+id/cameraSymbol"
+          android:title="Camera"
+          app:showAsAction="always"
+          android:icon="@drawable/ic_action_camera"/>
+
+    <item android:id="@+id/sortAZ"
+          android:title="@string/sortaz"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/sortRating"
+          android:title="@string/sortrat"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+
+</menu>

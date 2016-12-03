@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodieAppStarterProject</string>
+    <string name="sortaz">Sort A-Z</string>
+    <string name="sortrat">Highest rated first</string>
+    <string name="title_activity_foodie_gallery">Foodie Gallery</string>
+    <string name="title_activity_foodie_item_detail">Foodie Details</string>
+
+</resources>

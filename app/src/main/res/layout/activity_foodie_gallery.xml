@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Relative"
+                tools:context="mi.ur.de.foodieappstarterproject.activities.FoodieGalleryActivity"
+    >
+
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Grid"
+        android:numColumns="2"
+        android:clickable="true"
+        android:longClickable="true"
+        >
+
+    </GridView>
+
+</RelativeLayout>
